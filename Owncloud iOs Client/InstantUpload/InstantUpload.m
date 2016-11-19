@@ -264,7 +264,7 @@
                             
                         }];
                         
-                        [app.prepareFiles addAssetsToUpload:newAssets andRemoteFolder:[[NSString alloc] initWithFormat:@"%@%@/", [UtilsUrls getFullRemoteServerPathWithWebDav:ACTIVE_USER], k_path_instant_upload]];
+                        [app.prepareFiles addAssetsToUpload:newAssets andRemoteFolder:[[NSString alloc] initWithFormat:@"%@%@/", [UtilsUrls getFullRemoteServerPathWithWebDav:ACTIVE_USER], NSLocalizedString(@"instant_updloads_section", nil) /*k_path_instant_upload*/]];
                     }
                 } else {
                     [self setImageInstantUploadEnabled:NO];

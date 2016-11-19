@@ -51,11 +51,11 @@
 #define k_oauth_client_id @"" //the same in k_oauth_login
 
 //Mail feedback
-#define k_mail_feedback @"apps@owncloud.com"
+#define k_mail_feedback @"mossan@sina.com"
 
 //Social
-#define k_download_url_short @"http://bit.ly/13haDjE"
-#define k_download_url_long @"https://itunes.apple.com/us/app/owncloud/id543672169?mt=8"
+#define k_download_url_short @"https://appsto.re/cn/adaMfb.i"
+#define k_download_url_long @"https://itunes.apple.com/cn/app/si-you-yun/id1167589568?mt=8"
 #define k_twitter_user @"@ownCloud"
 
 //Minimun files until show letters on separators

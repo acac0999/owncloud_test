@@ -125,7 +125,7 @@
         {
             NSString *folderInstantUpload = [self.currentUpload.destinyFolder lastPathComponent];
             
-            if (([ManageAppSettingsDB isImageInstantUpload] || [ManageAppSettingsDB isVideoInstantUpload]) && [folderInstantUpload isEqualToString:k_path_instant_upload]) {
+            if (([ManageAppSettingsDB isImageInstantUpload] || [ManageAppSettingsDB isVideoInstantUpload]) && [folderInstantUpload isEqualToString:NSLocalizedString(@"instant_updloads_section", nil) /*k_path_instant_upload*/]) {
                 //create folder instant upload
                 [self newFolder:_currentUpload.destinyFolder];
             } else {

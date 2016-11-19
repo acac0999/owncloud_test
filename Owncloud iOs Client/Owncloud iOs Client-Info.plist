@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
-	<string>ownCloud</string>
+	<string>私有云</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -61,7 +61,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.5.1</string>
+	<string>3.5.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -94,11 +94,16 @@
 		<key>NSExceptionDomains</key>
 		<dict/>
 	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Used to instantly upload your new photos after a significant change in your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Used to instantly upload your new photos after a significant change in your location</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Upload your selected photos to your account</string>
 	<key>UIApplicationExitsOnSuspend</key>
 	<false/>
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>audio</string>
 		<string>fetch</string>
 	</array>
 	<key>UIInterfaceOrientation</key>
@@ -140,11 +145,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Upload your selected photos to your account</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Used to instantly upload your new photos after a significant change in your location</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Used to instantly upload your new photos after a significant change in your location</string>
 </dict>
 </plist>
